@@ -160,7 +160,7 @@ const TodoList = () => {
         <input
           type="text"
           onChange={(e) => setName(e.target.value)}
-          placeholder="Enter a task..."
+          placeholder="Add a task..."
           ref={inputValue}
         />
         <button type="submit" className="submit">

@@ -4,11 +4,11 @@
 @media screen  and (max-width:767px) {
     body {
         background-image:radial-gradient(#7e8f9f,rgb(81, 81, 105));
-        font-size:25px;
+        font-size:normal;
   
       }
       .alert { 
-        font-size:25px;
+        font-size:normal;
   
     
     }
@@ -94,11 +94,11 @@
   @media screen  and (min-width:767px) and (max-width:1023px)  {
     body {
         background-image:radial-gradient(#7e8f9f,rgb(81, 81, 105));
-        font-size:25px;
+        font-size:normal;
   
       }
       .alert { 
-        font-size:25px;
+        font-size:normal;
   
     
     }
@@ -198,7 +198,7 @@
           display: none;
       }
       .showLaptop {
-        font-size: 30px;
+        font-size:normal;
         float: right;
         color:#7e8f9f
        }

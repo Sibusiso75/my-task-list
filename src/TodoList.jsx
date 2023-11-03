@@ -3,9 +3,7 @@ import {
   FaTrash,
   FaEdit,
   FaPlus,
-  FaLaptop,
-  FaMobile,
-  FaTablet,
+  
 } from "react-icons/fa";
 import { FaTasks } from "react-icons/fa";
 import "./todolist.css";
@@ -108,11 +106,7 @@ const TodoList = () => {
   }, [items]);
   return (
     <div className="laptop">
-      <FaLaptop className="showLaptop" />
-
-      <FaMobile className="showMobile" />
-
-      <FaTablet className="showTablet" />
+     
 
       <h3>To-do List</h3>
 

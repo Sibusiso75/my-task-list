@@ -44,7 +44,16 @@
     }
     input {
       padding:10px;
+      
     }
+    .marginFortitleAndTasks{
+        margin:5px;
+    }
+    .formAndButton{
+        margin:5px;
+    }
+
+
       .submit:hover {
        
         cursor: pointer;

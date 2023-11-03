@@ -107,8 +107,9 @@ const TodoList = () => {
   return (
     <div className="laptop">
      
+        <div className="marginFortitleAndTasks">
 
-      <h3>To-do List</h3>
+      <h3>Todo List</h3>
 
       {input && (
         <h4
@@ -141,10 +142,11 @@ const TodoList = () => {
           ? items.length + " task "
           : items.length + " tasks "}
       </h4>
+      </div>
       {addAlert && (
         <p
-          style={{
-            color: "green",
+        style={{
+          color: "green",
             background: "lightgreen",
             paddingLeft: "5px",
           }}
@@ -152,6 +154,7 @@ const TodoList = () => {
           task has been added
         </p>
       )}
+        <div className="formAndButton">
 
       <form onSubmit={submit}>
         <input
@@ -164,6 +167,7 @@ const TodoList = () => {
           <FaPlus />
         </button>
       </form>
+        </div>
       <p></p>
 
       <p></p>
